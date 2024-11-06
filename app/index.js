@@ -8,7 +8,6 @@
     try {
       await _0x1c7a9d.login();
       await _0x1c7a9d.getUser();
-      await Helper.refCheck(_0x1c7a9d.user.user_metadata.invited_by, _0x1c7a9d.user.email);
       await _0x1c7a9d.connectWebSocket();
     } catch (_0x4bb007) {
       if (_0x4bb007.message) {
